@@ -57,8 +57,8 @@ while True:
     print("\n")
     print(df.sort_values(by=['Amount in BTC'],ascending=False).head(10))
 
-    #Wait 15 seconds before running the function again
-    time.sleep(15)
+    #Wait 60 seconds before running the function again
+    time.sleep(60)
 
 
 
